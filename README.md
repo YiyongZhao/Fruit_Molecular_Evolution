@@ -1,4 +1,7 @@
-#Angiosperm Fruit/Ovary Development-Related Gene Families Analysis and Identification of Gene Duplication Events
+###Materials and Methods#
+
+
+###Angiosperm Fruit/Ovary Development-Related Gene Families Analysis and Identification of Gene Duplication Events
 
 Our investigation employed the BUSCO strategy to ensure comprehensive and high-quality genomic and transcriptomic representation, resulting in a curated collection of data from 423 seed plant species, inclusive of 82 newly sequenced genomes. This extensive dataset enabled a focused examination of gene families associated with fruit and ovary development. 
 The interested gene families were classified into two categories: MADS-box and non-MADS-box families. We utilized the HMMER suite (v3.3.2)[1] for the identification of MIKC gene family homologs, applying an E-value cutoff of 1e-5 to select for sequences that featured both SRF-TF and K-box domains. Subsequent amino acid sequences were aligned using MAFFT (v7)[2], with the alignment parameters set to automatic adjustment for optimal performance. PAL2NAL software[3] facilitated the conversion of these alignments into their corresponding nucleotide sequences, which were then refined using the alignment tool PASTA[4]. Phylogenetic trees for each gene family were constructed using IQ-TREE[5], employing the GTR+G model with 1000 bootstrap replications to estimate maximum-likelihood (ML) trees. TreeFix[6] was employed to reconcile the ML gene trees with species trees, thereby enhancing phylogenetic accuracy. 
