@@ -10,8 +10,10 @@ The interested gene families were classified into two categories: MADS-box and n
 To delineate the five lineages within the MADS-box gene family, we selected protein sequences from Arabidopsis thaliana and tomato as reference gene markers. These were the AG, AP1, AP3/PI, SEP, and SOC1/TM3 lineages. Similarly, for the identification of five non-MADS-box gene families, we referenced 43 protein sequences from the same model organisms, using BLASTP with an E-value threshold of 1e-10 to ensure specificity. PhyloTracer software (https://github.com/YiyongZhao/PhyloTracer) was then implemented to visualize gene duplication events within these gene families. All the data related to gene family analsyis, including genome and transcriptome sequences, gene markers, species trees, and phylogenetic trees in Newick and PDF formats for the ten gene families studied, are freely available in public GitHub repository (https://github.com/YiyongZhao/Fruit_Molecular_Evolution).</p>
 <p align = "justify">
 Figure 1: A summarized phylogenetic tree of 423 seed plant species with a BUSCO-based gene completeness assessment for gene family analysis. species names in blue indicate the addition of 82 newly sequenced public genomes. </p>
-Table 1: Information of genome and transcriptome data included and gene BUSCO completeness assessment in this study for angiosperm fruit evolution related gene family analysis.
-Table 2: Gene names and IDs of Arabidopsis thaliana and Solanum lycopersicum in the phylogenetic analyses.
+<p align = "justify">
+Table 1: Information of genome and transcriptome data included and gene BUSCO completeness assessment in this study for angiosperm fruit evolution related gene family analysis.</p>
+<p align = "justify">
+Table 2: Gene names and IDs of Arabidopsis thaliana and Solanum lycopersicum in the phylogenetic analyses.</p>
 
 Reference:
 1.	Finn RD, Clements J, Eddy SR: HMMER web server: interactive sequence similarity searching. Nucleic Acids Res 2011, 39(suppl_2):W29-W37.
@@ -20,5 +22,3 @@ Reference:
 4.	Mirarab S, Nguyen N, Guo S, Wang LS, Kim J, Warnow T: PASTA: Ultra-Large Multiple Sequence Alignment for Nucleotide and Amino-Acid Sequences. J Comput Biol 2015, 22(5):377-386.
 5.	Nguyen LT, Schmidt HA, von Haeseler A, Minh BQ: IQ-TREE: a fast and effective stochastic algorithm for estimating maximum-likelihood phylogenies. Mol Biol Evol 2015, 32(1):268-274.
 6.	Wu Y-C, Rasmussen MD, Bansal MS, Kellis M: TreeFix: Statistically Informed Gene Tree Error Correction Using Species Trees. Syst Biol 2012, 62(1):110-120.
-
-</p>
